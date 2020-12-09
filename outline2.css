@@ -12,6 +12,10 @@
 .menu{
     background-color: #F0E2ED;
   }
+.nobunny{
+  display: none;
+  align: right;
+}
   a{
     color:gray;
     text-decoration: none;
