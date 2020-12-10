@@ -21,11 +21,14 @@
   </ol>
 </div>
 <div id="article">
-  <input type="button" value="Bunny" onclick="
-  document.querySelector('#bunny').style.display = 'block';
-  ">
-  <input type="button" value="Unbunny" onclick="
-window.location.reload();
+  <input id="bunnypot" type="button" value="Bunny" onclick="
+  if(document.querySelector('#bunnypot').value==='Bunny'){
+    document.querySelector('#bunny').style.display = 'block';
+    document.querySelector('#bunnypot').value='Unbunny'
+  }else{
+    window.location.reload();
+    document.querySelector('#bunnypot').value='Unbunny'
+  }
   ">
 
 
