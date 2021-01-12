@@ -1,0 +1,57 @@
+#outline{
+
+}
+table{
+  text-align: center;
+  padding: 20px;
+  background-color:#5C1DB5;
+  font-size: 23px;
+  box-shadow: 2px 2px;
+}
+td{
+  padding: 0px;
+}
+input{
+  border: none;
+  text-align: right;
+  background-color:#1700B7;
+  color: white;
+}
+.display{
+  background-color:#1700B7;
+  padding: 0px;
+  box-shadow: 1px 1px black inset;
+  height: 60px;
+}
+.number{
+  background-color: #323232;
+  color: white;
+  width:80px;
+  height:50px;
+}
+.oper{
+  background-color:#696969;
+  color: white;
+  width:50px;
+}
+.smallbutton{
+  background-color:#696969;
+  color: white;
+}
+#clall{
+  height: 50px;
+  background-color: #B70000;
+  color: white;
+}
+#formula{
+  width: 290px;
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+}
+#result{
+  width: 290px;
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+}

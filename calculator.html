@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator 1.0</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <h1>My tools</h1>
+  <h1>계산기 1.0</h1>
+  <table border="1">
+    <tr>
+      <td class="display" colspan="5">
+        <input type="text" id="formula"><br>
+        <input type="text" id="result" value="0">
+      </td>
+    </tr>
+    <tr>
+    <td id="clall" onclick="erase()">C</td>
+    <td class="smallbutton" onclick="powtwo()">X<sup>2</sup></td>
+    <td class="smallbutton" onclick="squared()">√</td>
+    <td class="oper" onclick="del()">◀</td>
+    <td class="oper" onclick="opentry('/')">÷</td>
+    </tr>
+    <tr>
+      <td class="number" onclick="entry(7)">7</td>
+      <td colspan="2" class="number" onclick="entry(8)">8</td>
+      <td class="number" onclick="entry(9)">9</td>
+      <td class="oper" onclick="opentry('*')">×</td>
+    </tr>
+    <tr>
+      <td class="number" onclick="entry(4)">4</td>
+      <td colspan="2" class="number" onclick="entry(5)">5</td>
+      <td class="number" onclick="entry(6)">6</td>
+      <td class="oper" onclick="opentry('-')">-</td>
+    </tr>
+    <tr>
+      <td class="number" onclick="entry(1)">1</td>
+      <td colspan="2" class="number" onclick="entry(2)">2</td>
+      <td class="number" onclick="entry(3)">3</td>
+      <td class="oper" onclick="opentry('+')">+</td>
+    </tr>
+    <tr>
+      <td class="oper" onclick="plusminus()">±</td>
+      <td colspan="2" class="number" onclick="entry(0)">0</td>
+      <td class="oper" onclick="entry('.')">.</td>
+      <td class="oper" onclick="calculate()">=</td>
+    </tr>
+</table>
+
+  <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
